@@ -4,6 +4,7 @@ fflist = [x for x in filter(lambda fn: fn.endswith(".WAV"), [os.path.join(dp, f)
 
 
 for fpath in fflist:
-    parts = fpath.split('/')
-    newname = parts[1] + "_" + parts[2]
-    print(f"mv {fpath} ./{newname}")
+    #parts = fpath.split('/')
+    #newname = parts[1] + "_" + parts[2]
+    #print(f"mv {fpath} ./{newname}")
+    print (fpath[2:])
